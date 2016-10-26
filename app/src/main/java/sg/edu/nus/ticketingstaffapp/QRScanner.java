@@ -64,14 +64,18 @@ public class QRScanner extends AppCompatActivity {
             public void receiveDetections(Detector.Detections<Barcode> detections) {
                 final SparseArray<Barcode> barcodes = detections.getDetectedItems();
                 if (barcodes.size() != 0) {
-                    redeemTicket();
+                    //System.out.println("Print content = " + qrContent);
+                    String qrContent = barcodes.valueAt(0).displayValue;  //toString();
+                    redeemTicket(qrContent);
                 }
             }
         });
     }
 
-    public void redeemTicket() {
+    public void redeemTicket(String content) {
+        System.out.println("Print content = " + content);
         Intent myIntent = new Intent(this, RedeemTicket.class);
+        myIntent.putExtra("content", content);
         startActivity(myIntent);
     }
 }

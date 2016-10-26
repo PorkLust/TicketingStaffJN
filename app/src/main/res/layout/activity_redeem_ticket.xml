@@ -11,4 +11,12 @@
         android:layout_height="wrap_content"
         android:text="redeem ticket"
         android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:id="@+id/qrcode_Info"
+        android:textSize="20sp"/>
+
 </LinearLayout>
