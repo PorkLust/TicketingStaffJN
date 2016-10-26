@@ -25,6 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/email"
+            android:textColor="@color/grey"
             android:id="@+id/textView" />
 
         <EditText
@@ -36,6 +37,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/password"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/grey"
             android:id="@+id/textView2" />
 
         <EditText
@@ -44,5 +47,12 @@
             android:id="@+id/editText2" />
 
     </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
 
 </LinearLayout>
