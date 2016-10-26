@@ -1,7 +1,9 @@
 package sg.edu.nus.ticketingstaffapp;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,5 +13,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void onClick_QRScanner(View view) {
+        Intent myIntent = new Intent(this, QRScanner.class);
+        startActivity(myIntent);
+    }
+
+    public void onClick_SMSMarketingMessage(View view) {
+
+    }
 
 }

@@ -6,8 +6,18 @@
     android:orientation="vertical"
     tools:context="sg.edu.nus.ticketingstaffapp.MainActivity">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qrScanner"
+        android:id="@+id/button"
+        android:onClick="onClick_QRScanner"/>
 
-
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/smsMarketingMessage"
+        android:id="@+id/button2"
+        android:onClick="onClick_SMSMarketingMessage"/>
 
 </LinearLayout>
