@@ -7,14 +7,14 @@
     tools:context="sg.edu.nus.ticketingstaffapp.MainActivity">
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/qrScanner"
+        android:text="@string/scanQRCode"
         android:id="@+id/button"
-        android:onClick="onClick_QRScanner"/>
+        android:onClick="onClick_ScanQRCode"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/smsMarketingMessage"
         android:id="@+id/button2"

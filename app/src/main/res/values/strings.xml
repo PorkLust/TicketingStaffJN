@@ -4,6 +4,6 @@
     <string name="email">EMAIL</string>
     <string name="password">PASSWORD</string>
 
-    <string name="qrScanner">QR Scanner</string>
+    <string name="scanQRCode">Scan QR Code</string>
     <string name="smsMarketingMessage">SMS Marketing Message</string>
 </resources>

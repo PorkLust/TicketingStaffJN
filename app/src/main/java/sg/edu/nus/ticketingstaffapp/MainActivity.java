@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onClick_QRScanner(View view) {
+    public void onClick_ScanQRCode(View view) {
         Intent myIntent = new Intent(this, QRScanner.class);
         startActivity(myIntent);
     }
