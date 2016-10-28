@@ -65,8 +65,7 @@ public class QRScanner extends AppCompatActivity {
                 final SparseArray<Barcode> barcodes = detections.getDetectedItems();
                 boolean scan = true;
                 if (barcodes.size() != 0 && scan) {
-                    //System.out.println("Print content = " + qrContent);
-                    String qrContent = barcodes.valueAt(0).displayValue;  //toString();
+                    String qrContent = barcodes.valueAt(0).displayValue;
                     scan = false;
                     redeemTicket(qrContent);
                 }

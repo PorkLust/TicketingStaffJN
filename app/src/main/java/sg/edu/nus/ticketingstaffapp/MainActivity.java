@@ -22,4 +22,18 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void onClick_ViewMyLocation(View view) {
+        Intent myIntent = new Intent(this, MapsActivity.class);
+        startActivity(myIntent);
+    }
+
+    public void onClick_Location(View view) {
+        Intent myIntent = new Intent(this, LocationService.class);
+        startActivity(myIntent);
+    }
+
+    public void onClick_Map(View view) {
+        Intent myIntent = new Intent(this, Map.class);
+        startActivity(myIntent);
+    }
 }
