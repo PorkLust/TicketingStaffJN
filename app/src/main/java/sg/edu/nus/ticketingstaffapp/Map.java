@@ -35,9 +35,7 @@ public class Map extends FragmentActivity implements OnMapReadyCallback {
         double lat = Double.parseDouble(pref.getString("Latitude", null));
         double lng = Double.parseDouble(pref.getString("Longtitude", null));
 
-       // LatLng myLocation = new LatLng(lat, lng);
-        LatLng myLocation = new LatLng(1.2956, 103.776);
-
+        LatLng myLocation = new LatLng(lat, lng);
 
         Marker myMarker = mMap.addMarker(new MarkerOptions().position(myLocation).title("Marker").snippet("HERE"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(myLocation,20));
