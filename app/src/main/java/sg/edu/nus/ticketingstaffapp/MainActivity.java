@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
     public void onClick_ScanQRCode(View view) {
@@ -22,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //this is a combi of map and location
+    //maybe can delete this
     public void onClick_ViewMyLocation(View view) {
         Intent myIntent = new Intent(this, MapsActivity.class);
         startActivity(myIntent);

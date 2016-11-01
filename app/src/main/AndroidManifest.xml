@@ -48,7 +48,9 @@
         <activity
             android:name=".Map"
             android:label="@string/title_activity_map" />
-        <activity android:name=".LocationService"></activity>
+        <activity android:name=".LocationService" />
+        <activity android:name=".DBHelper" />
+        <activity android:name=".MyDB" />
     </application>
 
 </manifest>

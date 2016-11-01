@@ -14,6 +14,6 @@
 
     <string name="location">location service</string>
     <string name="map">map</string>
-
+    <string name="qrcode_info">Is QR Code Valid?</string>
 
 </resources>
