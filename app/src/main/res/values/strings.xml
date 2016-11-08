@@ -5,15 +5,5 @@
     <string name="password">PASSWORD</string>
 
     <string name="scanQRCode">Scan QR Code</string>
-    <string name="smsMarketingMessage">SMS Marketing Message</string>
-    <string name="title_activity_maps">Map</string>
-    <string name="viewMyLocation">View My Location</string>
-    <string name="title_activity_map">Map</string>
-    <string name="title_activity_location">Map</string>
-    <string name="title_activity_location_service">Map</string>
-
-    <string name="location">location service</string>
-    <string name="map">map</string>
     <string name="qrcode_info">Is QR Code Valid?</string>
-
 </resources>

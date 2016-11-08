@@ -91,7 +91,7 @@ public class QRScanner extends AppCompatActivity {
         //to save jpg to database
         //insert to database
         db.open();
-        db.insertRecord("JJ Lim, Dan, CAT 1, 67, Oct_30_2016");
+        db.insertRecord("Jay Chou, Scarlet, CAT 1, 67, Nov_7_2016");
         db.insertRecord("JJ Lim, Dan, CAT 1, 67, Oct_31_2016");
         db.insertRecord("Jay Chou, Emma, CAT2, 103, Oct_31_2016");
         db.insertRecord("S.H.E, Luke, CAT3, 200, Nov_1_2016");

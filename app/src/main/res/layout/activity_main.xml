@@ -13,32 +13,4 @@
         android:id="@+id/button"
         android:onClick="onClick_ScanQRCode"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/smsMarketingMessage"
-        android:id="@+id/button2"
-        android:onClick="onClick_SMSMarketingMessage"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/viewMyLocation"
-        android:id="@+id/button3"
-        android:onClick="onClick_ViewMyLocation"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/location"
-        android:id="@+id/button4"
-        android:onClick="onClick_Location"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/map"
-        android:id="@+id/button5"
-        android:onClick="onClick_Map"/>
-
 </LinearLayout>
